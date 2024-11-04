@@ -12,7 +12,7 @@
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:src="@drawable/ic_check_circle"
-        app:tint="@android:color/white" />
+        app:tint="#FF0000" />
 
     <TextView
         android:id="@+id/snackbar_text"
