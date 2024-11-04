@@ -25,13 +25,14 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // Set a click listener on the button to show the custom Snackbar
         binding.showSnackbarButton.setOnClickListener {
-            showCustomSnackbar()
+            showCustomSnackbar() // Call the function to show the custom Snackbar
         }
     }
+
+    // Function to display the custom Snackbar
     private fun showCustomSnackbar() {
-        showCustomSnackBar("Custom Snackbar Message", binding.main)
+        showCustomSnackBar("Custom Snackbar Message", binding.main) // Call the extension function to show the Snackbar
     }
-
-
 }
